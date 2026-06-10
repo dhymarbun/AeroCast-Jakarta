@@ -20,7 +20,7 @@
 
 **AeroCast Jakarta** is a real-time air quality monitoring web application for DKI Jakarta. The system predicts **ISPU (Indeks Standar Pencemar Udara)** categories using an XGBoost machine learning model trained on sensor data from 5 official DKI Jakarta monitoring stations, with live data fetched through the WAQI API.
 
-> Developed for the **AI For Real Impact 2026** competition.
+> Developed as a personal project to monitor and predict air quality across DKI Jakarta.
 
 ---
 
