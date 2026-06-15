@@ -27,7 +27,7 @@ COLUMNS_ORDER = [
     'radiation_sum', 'humidity_mean'
 ]
 
-WAQI_TOKEN = "waqi token"
+WAQI_TOKEN = os.environ.get("WAQI_TOKEN")
 
 @app.route("/api/health", methods=["GET"])
 def health():
