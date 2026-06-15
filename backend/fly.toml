@@ -12,7 +12,7 @@ primary_region = "sin"
   processes = ["app"]
 
 [processes]
-  app = "gunicorn backend:app"
+  app = "/app/.venv/bin/gunicorn --bind 0.0.0.0:8080 backend:app"
 
 [[vm]]
   memory = "1gb"

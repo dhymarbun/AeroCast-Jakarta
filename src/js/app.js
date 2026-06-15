@@ -1,6 +1,6 @@
 'use strict';
 
-const API_BASE = () => 'http://localhost:5001';
+const API_BASE = () => 'https://aerocast-jakarta.fly.dev';
 
 const today = new Date();
 
